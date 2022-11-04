@@ -1,0 +1,221 @@
+.body_title {
+  font-size: 2.5rem;
+  line-height: 55px;
+}
+
+.body_title span {
+  color: #ce6464;
+}
+
+.body_section p {
+  font-size: 1rem;
+  line-height: 30px;
+  color: #222;
+}
+
+.body_btn button {
+  outline: none;
+  padding: 7px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.order_btn {
+  border: none;
+  background: #ce6464;
+  color: #fff;
+  transition: 0.3s;
+}
+.order_btn:hover {
+  background: #212245;
+}
+
+.allfoods_btn {
+  background: transparent;
+  border: 1px solid #ce6464;
+}
+
+.allfoods_btn a {
+  color: #ce6464 !important;
+  text-decoration: none;
+}
+
+.body_service p {
+  color: #212245;
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+
+.shopping_icon i {
+  padding: 5px;
+  background: #ce6464;
+  color: #fff;
+  border-radius: 50%;
+  font-weight: 500 !important;
+}
+
+.feature_subtitle {
+  color: #ce6464;
+}
+.feature_title span {
+  color: #ce6464;
+}
+
+.feature_text {
+  color: #333;
+}
+.feature_item p {
+  color: #333;
+}
+
+.food_category {
+  background: #ce6464;
+  text-align: center;
+  margin-top: 30px;
+  padding: 20px 30px;
+  border-radius: 8px;
+  overflow: scroll;
+}
+
+.food_category::-webkit-scrollbar {
+  display: none;
+}
+
+.food_category button {
+  border: 0;
+  outline: none;
+  padding: 7px 20px;
+  background: transparent;
+  color: #fff;
+}
+
+.food_category button img {
+  width: 20px;
+  height: 20px;
+}
+
+.foodBtnActive {
+  background: #fff !important;
+  color: #ce6464 !important;
+  border-radius: 5px;
+}
+
+.why_kiddies_treat h2 span {
+  color: #ce6464;
+  font-weight: 700;
+}
+
+.why_kiddies_treat_desc {
+  line-height: 28px;
+  color: #333;
+}
+
+.choose_us_title {
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.choose_us_title i {
+  font-weight: 500 !important;
+  color: #ce6464;
+}
+
+.choose_us_desc {
+  color: #333;
+}
+
+.testimonial h5 {
+  color: #ce6464;
+  font-weight: 500;
+}
+
+.testimonial h2 span {
+  color: #ce6464;
+}
+
+.testimonial p {
+  color: #333;
+  line-height: 30px;
+}
+@media only screen and (max-width: 768px) {
+  .body_section h5 {
+    font-size: 1rem;
+  }
+
+  .body_section p {
+    font-size: 0.8rem;
+    line-height: 25px;
+  }
+
+  .body_title {
+    font-size: 1.5rem;
+    line-height: 40px;
+  }
+
+  .body_btn {
+    justify-content: center;
+  }
+
+  .body-service p {
+    font-size: 0.7rem;
+  }
+
+  .feature_item h5 {
+    font-size: 0.9rem;
+  }
+
+  .feature_item p {
+    font-size: 0.8rem;
+    margin-bottom: 0;
+  }
+
+  .feature_subtitle {
+    font-size: 1rem;
+  }
+
+  .feature_text {
+    font-size: 0.8rem;
+    margin-bottom: 0;
+  }
+
+  .food_category button {
+    padding: 5px 15px;
+    font-size: 0.7rem;
+  }
+
+  .why_kiddies_treat_desc {
+    font-size: 0.8rem;
+    margin-bottom: 0;
+  }
+
+  .choose_us_title {
+    font-size: 0.8rem;
+  }
+
+  .choose_us_desc {
+    font-size: 0.7rem;
+  }
+  .testimonial h5 {
+    font-size: 0.8rem;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .body_section {
+    text-align: center;
+  }
+
+  .body_btn buttton {
+    padding: 5px 15px;
+    font-size: 0.7rem;
+  }
+
+  .body_service {
+    justify-content: center;
+  }
+
+  .why_choose_us {
+    padding-top: 0 !important;
+  }
+}

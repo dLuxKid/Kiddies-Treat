@@ -1,0 +1,156 @@
+.single_product_content {
+  padding-left: 50px;
+}
+
+.product-price {
+  display: flex;
+  column-gap: 1rem;
+  align-items: center;
+  margin-bottom: 0;
+}
+
+.product_price span {
+  font-size: 2rem;
+}
+
+.product_category {
+  font-weight: 600;
+  color: #212245;
+  display: flex;
+  align-items: center;
+  column-gap: 1rem;
+  margin-top: 10px;
+}
+
+.product_category span {
+  padding: 5px 10px;
+  background: ivory;
+  color: #212245;
+  border-radius: 5px;
+}
+
+.tabs {
+  border-bottom: 1px solid ivory;
+}
+
+.tabs h6 {
+  cursor: pointer;
+}
+
+.tab_content {
+  padding: 30px 0;
+}
+
+.tab_content p {
+  line-height: 30px;
+  color: #212245b6;
+}
+
+.tab_active {
+  color: #ce6464;
+}
+
+.form {
+  width: 100%;
+  margin: auto;
+  background: ivory;
+  padding: 30px;
+  border-radius: 5px;
+}
+
+.form_group {
+  margin-bottom: 30px;
+}
+
+.form_group input,
+.form_group textarea {
+  width: 60%;
+  background: transparent;
+  padding: 7px 20px;
+  border: none;
+  border-bottom: 1px solid #212245b6;
+}
+
+.form_group input:focus,
+.form_group textarea:focus {
+  outline: none;
+}
+
+.user_name {
+  font-weight: 600;
+  color: #212245;
+}
+
+.user_email {
+  font-size: 0.8rem;
+}
+
+.user_review {
+  color: #212245;
+}
+
+.img_item {
+  cursor: pointer;
+}
+
+.related_product_title {
+  font-size: 1.4rem;
+}
+
+@media only screen and (max-width: 768px) {
+  .product_title {
+    font-size: 1.4rem;
+  }
+  .product-price,
+  .product-price span {
+    font-size: 1rem;
+  }
+
+  .product_category,
+  .product_category span {
+    font-size: 0.8rem !important;
+  }
+
+  .tabs {
+    margin-top: 30px;
+  }
+
+  .tabs h6 {
+    font-size: 0.9rem;
+  }
+
+  .tab_content p,
+  .user_name,
+  .user_review {
+    font-size: 0.8rem;
+  }
+
+  .user_email {
+    font-size: 0.7rem;
+  }
+
+  .form {
+    width: 100%;
+    margin-top: 50px;
+  }
+
+  .form_group input::placeholder,
+  .form_group textarea::placeholder {
+    font-size: 0.8rem;
+  }
+
+  .related_product_title {
+    font-size: 1.2rem;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .product_image {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .product_main_image {
+    margin-bottom: 20px;
+  }
+}

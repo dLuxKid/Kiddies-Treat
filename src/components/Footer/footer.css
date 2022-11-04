@@ -1,0 +1,127 @@
+.footer {
+  padding: 50px 0 30px;
+  background: rgba(0, 0, 0, 0.55);
+}
+
+.footer a {
+  list-style: none;
+  font-weight: 600;
+  text-decoration: none;
+  color: #212245;
+}
+
+.footer a:hover {
+  color: #ce6464;
+}
+
+.footer_logo h5 {
+  font-weight: 600;
+  font-style: 1rem;
+  margin-bottom: 15px;
+}
+
+.footer_logo p {
+  font-style: 0.9rem;
+  color: #fff;
+  line-height: 28px;
+}
+
+.delivery_time-item p {
+  color: white;
+}
+
+.delivery_time-item {
+  background: transparent !important;
+}
+
+.delivery_time-item span {
+  font-weight: 600;
+  font-size: 1rem;
+  color: white;
+}
+
+.footer-title {
+  font-style: 1.1rem;
+  color: white;
+  font-weight: 600;
+}
+
+.footer-p {
+  color: #fff;
+}
+
+.newsletter {
+  background: ivory;
+  padding: 5px 10px;
+  border: 1px solid white;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+
+.newsletter input {
+  background: transparent;
+  border: none;
+  outline: none;
+  width: 100%;
+}
+
+.newsletter input:focus {
+  outline: none;
+}
+
+.newsletter span {
+  background: #212245;
+  padding: 7px 15px;
+  border-radius: 5px;
+}
+
+.newsletter span i {
+  color: #fff;
+}
+
+.newsletter input::placeholder {
+  color: #212245;
+}
+
+.footer a i {
+  padding: 5px;
+  background: #212245;
+  color: #fff;
+  border-radius: 50%;
+}
+
+.copyright-p {
+  color: #212245;
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+
+@media only screen and (max-width: 768px) {
+  .footer-title {
+    font-size: 0.8rem;
+  }
+  .delivery_time-item span {
+    font-size: 0.8rem;
+  }
+  .delivery_time-item p {
+    font-size: 0.7rem;
+    margin-bottom: 0;
+  }
+  .newsletter input {
+    padding: 10px 7px;
+    font-size: 0.7rem;
+  }
+  .newsletter span {
+    padding: 5px 20px;
+    font-size: 0.8rem;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .footer-p {
+    font-size: 0.8rem;
+  }
+}

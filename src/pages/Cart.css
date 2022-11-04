@@ -1,0 +1,28 @@
+th,
+td {
+  text-align: center !important;
+}
+
+.product_img_box {
+  width: 80px;
+}
+
+.product_img_box img {
+  width: 100%;
+}
+
+.product_item_del i {
+  cursor: pointer;
+}
+
+.cart_subtotal {
+  color: #ce6464;
+  font-size: 1.5rem;
+}
+
+@media only screen and (max-width: 768px) {
+  th,
+  td {
+    font-size: 0.8rem;
+  }
+}

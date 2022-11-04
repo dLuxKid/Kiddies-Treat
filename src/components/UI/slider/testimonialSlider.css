@@ -1,0 +1,28 @@
+.review_text {
+  color: #333;
+  line-height: 30px;
+  margin: 40px 0;
+}
+
+.review_img img {
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+@media only screen and (max-width: 768px) {
+  .review_text {
+    font-size: 0.8rem;
+    margin: 20px 0;
+  }
+
+  .review_img img {
+    width: 50px;
+    height: 50px;
+  }
+
+  .review_img h6 {
+    font-size: 0.8rem;
+  }
+}
