@@ -2,7 +2,7 @@
 Ecommerce Web App
 
 ## ABOUT
-This is an ecommerce web app specializing in snacks and pastries which customers can browse and purchase a wide range of treats, Implemented robust cart functionality, including item selection, quantity adjustments, and secure checkout. Demonstrated strong problem-solving skills and attention to detail to create a delightful and intuitive shopping experience for customers.
+This is an ecommerce web app specializing in snacks and pastries which customers can browse and purchase a wide range of treats. Implemented Authentication, robust cart functionality, including item selection, quantity adjustments, and secure checkout.
 
 ## TECHNOLOGIES
 It was built using:
